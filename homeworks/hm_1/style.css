@@ -1,0 +1,30 @@
+section{
+    display: grid;
+    place-items: center;
+}
+
+.charcho {
+    display: grid;
+    place-items: center;
+    width: 900px;
+    height: auto;
+    background-color: rgb(226, 226, 226);
+}
+.text{
+    width: 300px;
+    height: 20px;
+}
+.gender{
+    
+    display: flex;
+    
+}
+#number{
+    width: 300px;
+    height: 20px;
+
+}
+#email{
+    width: 300px;
+    height: 20px;
+}

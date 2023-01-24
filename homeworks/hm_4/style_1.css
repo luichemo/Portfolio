@@ -1,0 +1,30 @@
+body{
+    display: grid;
+}
+p{
+    
+    margin: auto;
+    font-size: 50px;
+}
+.sivrce{
+    border: solid 4px blue;
+    width: 900px;
+    height: 330px;
+    display: grid;
+    place-self: center;
+    margin-top: 30px;
+}
+.btn{
+    border: solid 3px;
+    width: 200px;
+    height: 50px;
+    display: grid;
+    place-self: center;
+    background-color: rgb(221, 7, 7);
+    
+}
+.text{
+    font-size: 30px;
+    place-self: center;
+    text-decoration: none;
+}

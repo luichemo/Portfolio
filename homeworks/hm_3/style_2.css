@@ -1,0 +1,154 @@
+body {
+    background-color: #c7d3e1;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.section1{
+    background-color: rgb(34,37,45);
+    width: 2800px;
+    height: 150px;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 300px;
+    box-shadow: 5px 5px 10px 2px grey;
+    display: flex;
+}
+.logo1{
+    color: white;
+    font-size: xxx-large;
+    /* margin-top: 50px;
+    margin-left: 150px; */
+    padding: 50px;
+    margin-left: 150px ;
+    width: calc(100%-100px) ;
+}
+
+.menu1{
+    color: rgb(143,144,150);
+    font-size: xx-large;
+    padding: 60px;
+    margin-left: 550px ;
+    width: calc(100%-100px) ;
+    
+}
+#projects{
+    padding: 90px;
+}
+
+.contact1{
+    margin: 50px;
+    margin-left: 550px ;
+    width: calc(100%-100px) ;
+    background-color: rgb(4,130,170);
+    width: 200px;
+    height: 60px;
+    display: grid;
+    border-radius: 30px;
+
+}
+.btn1{
+    color: white;
+    font-size: xx-large;
+    text-decoration: none;
+    align-self: center;
+    margin-left: 50px;
+
+}
+
+
+.section2{
+    background-color: rgb(34,37,45);
+    width: 2800px;
+    height: 150px;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 700px;
+    box-shadow: 5px 5px 10px 2px grey;
+    display: flex;
+}
+.menu2{
+    color: rgb(143,144,150);
+    font-size: xx-large;
+    padding: 60px;
+    margin-left: 150px ;
+    width: calc(100%-100px) ;
+}
+.contact2{
+    margin: 50px;
+    margin-left: 50px ;
+    width: calc(100%-100px) ;
+    background-color: rgb(4,130,170);
+    width: 200px;
+    height: 60px;
+    display: grid;
+    border-radius: 30px;
+
+}
+.btn2{
+    color: white;
+    font-size: xx-large;
+    text-decoration: none;
+    align-self: center;
+    margin-left: 50px;
+}
+
+.logo2{
+    color: white;
+    font-size: xxx-large;
+    /* margin-top: 50px;
+    margin-left: 150px; */
+    padding: 50px;
+    margin-left: 1050px ;
+    width: calc(100%-100px) ;
+}
+.section3{
+    background-color: rgb(34,37,45);
+    width: 2800px;
+    height: 150px;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 1100px;
+    box-shadow: 5px 5px 10px 2px grey;
+    display: flex;
+}
+.logo3{
+    color: white;
+    font-size: xxx-large;
+    /* margin-top: 50px;
+    margin-left: 150px; */
+    padding: 50px;
+    margin-left: 150px ;
+    width: calc(100%-100px) ;
+}
+
+.menu3{
+    color: rgb(143,144,150);
+    font-size: xx-large;
+    padding: 60px;
+    margin-left: 1050px ;
+    width: calc(100%-100px) ;
+    
+}
+
+.contact3{
+    margin: 50px;
+    margin-left: 50px ;
+    width: calc(100%-100px) ;
+    background-color: rgb(4,130,170);
+    width: 200px;
+    height: 60px;
+    display: grid;
+    border-radius: 30px;
+
+}
+.btn3{
+    color: white;
+    font-size: xx-large;
+    text-decoration: none;
+    align-self: center;
+    margin-left: 50px;
+
+}
+
+
+

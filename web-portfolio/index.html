@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}"> -->
+
+</head>
+<body>
+    <header class="header">
+        <a href="#home" class="logo">Portfolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <!-- <i class="bi bi-x" id="menu-icon"></i> -->
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Welcome to my Website</h3>
+            <h1>Luka Chemia</h1>
+            <h3>I am a <span class="multiple-text">Frontend Developer</span></h3>
+            <p>Here you will find my works, I hope you like it. Have a nice trip  in the world of Frontend. </p>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/luka-chemia-a0a339236/"><i class="bi bi-linkedin"></i></a>
+                <a href="https://github.com/luichemo/Portfolio"><i class="bi bi-github"></i></a>
+                <a href="https://www.youtube.com/@lukachemia7479"><i class="bi bi-youtube"></i></a>
+                <a href="https://www.facebook.com/lukaa2002"><i class="bi bi-facebook"></i></a>
+            </div>
+            <a href="LC_cv.pdf" download="" class="btn">Download CV</a>
+        </div>
+        <div class="home-img">
+            <!-- <img src="{{ url_for('static', filename='images/avatar.png') }}" alt="Avatar" id="avatar"> -->
+            <img src="images/avatar.png" alt="Avatar" id="avatar">
+        </div>
+
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <!-- <img src="{{ url_for('static', filename='images/avatar2.jpg') }}"  alt="avatar2" id="avatar2"> -->
+            <img src="images/avatar2.jpg"  alt="avatar2" id="avatar2">
+
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>Hello! I'm Luka, a passionate and dedicated IT professional with a strong background in information technologies and frontend development. Over the past three years, I have been immersing myself in the world of web design and development, constantly honing my skills through practical projects and formal education...
+            </p>
+            <!-- ------------------------------------------ -->
+            <a href="about.html" class="btn2">Read More</a>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+        <div class="services-conteiner">
+            <div class="services-box">
+                <i class="bi bi-code-slash"></i>
+                <h3>Frontend Development</h3>
+                <p>In the frontend field, I offer a combination of technical expertise in HTML, CSS, and JavaScript, along with a deep understanding of user-centric design principles. I can create visually stunning and intuitive interfaces that enhance the user experience and drive engagement</p>
+                <!-- <a href="#" class="btn">Read More</a> -->
+            </div>
+            <div class="services-box">
+                <i class="bi bi-front"></i>
+                <h3>UX/UI</h3>
+                <p>In the UX/UI field, I offer a strong blend of user research, information architecture, and visual design skills. I can create seamless and intuitive user experiences, crafting visually appealing interfaces that optimize user satisfaction and drive meaningful engagement    </p>
+                <!-- <a href="#" class="btn">Read More</a> -->
+            </div>
+            <div class="services-box">
+                <i class="bi bi-music-note"></i>
+                <h3>Mixing</h3>
+                <p>In the Mixing field, I offer a wealth of technical knowledge and a keen ear for audio quality. With expertise in audio mixing techniques and tools, I can deliver mixes that enhance the clarity, balance, and impact of the client/user's audio content.</p>
+                <!-- <a href="#" class="btn">Read More</a> -->
+            </div>
+        </div>
+    </section>
+    <section class="portfolio" id="portfolio"><h2 class="heading">Latest
+        <span>Projects</span> </h2>
+        <div class="portfolio-conteiner">
+            <div class="portfolio-box">
+                <!-- <img src="{{ url_for('static', filename='images/timer.jpg') }}" alt="timer"> -->
+                <img src="images/timer.jpg" alt="timer">
+
+                <div class="portfolio-layer">
+                    <h4>Timer</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore, illum.</p>
+                    <a href=""><i class="bi bi-link-45deg"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <!-- <img src="{{ url_for('static', filename='images/password.jpg') }}" alt="timer"> -->
+                <img src="images/password.jpg" alt="timer">
+
+                <div class="portfolio-layer">
+                    <h4>Password generator</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore, illum.</p>
+                    <a href=""><i class="bi bi-link-45deg"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <!-- <img src="{{ url_for('static', filename='images/memory_game.jpeg') }}" alt="memory_game"> -->
+                <img src="images/memory_game.jpeg" alt="memory_game">
+
+                <div class="portfolio-layer">
+                    <h4>Card memory game</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore, illum.</p>
+                    <a href=""><i class="bi bi-link-45deg"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <!-- <img src="{{ url_for('static', filename='images/weather.jpg') }}" alt="weather"> -->
+                <img src="images/weather.jpg" alt="weather">
+
+                <div class="portfolio-layer">
+                    <h4>Weather</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore, illum.</p>
+                    <a href=""><i class="bi bi-link-45deg"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <!-- <img src="{{ url_for('static', filename='images/picking_text.jpg') }}" alt="weather"> -->
+                <img src="images/picking_text.jpg" alt="weather">
+
+                <div class="portfolio-layer">
+                    <h4>Trainer for picking text</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore, illum.</p>
+                    <a href=""><i class="bi bi-link-45deg"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <!-- <img src="{{ url_for('static', filename='images/chat.png') }}" alt="chat"> -->
+                <img src="images/chat.png" alt="chat">
+
+                <div class="portfolio-layer">
+                    <h4>Onlain chat</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore, illum.</p>
+                    <a href=""><i class="bi bi-link-45deg"></i></a>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+<section class="contact" id="contact">
+    <form action="{{ url_for('submit_form') }}" method="post"  id="contactForm">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <div class="input-box">
+            <input type="text" id="fullName" name="full_name" placeholder="Full Name">
+            <input type="email" id="email" name="email" placeholder="Email Address">
+        </div>
+        <div class="input-box">
+            <input type="tel" id="mobileNumber" name="mobile_number" placeholder="Mobile Number">
+            <input type="text" id="subject" name="email_subject" placeholder="Email Subject">
+        </div>
+        <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <input type="submit" value="Send Message" class="btn">
+    </form>
+</section>
+
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Mobile number: +995 551-80-00-37  <br> Email: luka.chemia001@gmail.com
+            </p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class="bi bi-arrow-up"></i></a>
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script> -->
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>
+
+<!-- github.com/mattboldt/typed.js/ -->

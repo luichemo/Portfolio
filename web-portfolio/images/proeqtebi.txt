@@ -1,0 +1,6 @@
+1)timer
+2)password generator
+3)card memory game
+4)weather
+5)trainer for picking text
+6)onlain chat

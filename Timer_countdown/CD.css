@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&family=Poppins:wght@400;500;600;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+    /* overflow: hidden; */
+    
+  }
+  
+  body{
+    width: 100%;
+    height: 100vh;
+    background-color: #fecf46;
+
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10%;
+  }
+
+  .countdown {
+    display: flex;
+    margin: auto;
+    
+    font-weight: normal;
+  }
+  h1 {
+    font-weight: normal;
+    font-size: 7vh;
+
+  }
+
+
+
+  .time {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    margin: 4vw;
+  }
+
+  .time h2 {
+    font-weight: normal;
+    font-size: 15vh;
+    line-height: 1;
+  }
+
+  .time small {
+    font-size: 4vh;
+  }
+  .btnd{
+    /* margin-top: 7rem; */
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: black;
+    border-radius: 4rem;
+    
+    font-size: 1.6rem;
+    color: #fecf46;
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+
+    
+  }
+  
+@media (max-width:950px){
+  .countdown{
+    display: block;
+  }
+  h1 {
+    font-size: 5vh;
+
+  }
+  .time h2 {
+    font-weight: normal;
+    font-size: 5vh;
+    line-height: 1;
+  }
+  .btnd{
+    font-size: 1rem;
+
+    
+  }
+  .time {
+    margin: 1.5rem;
+  }
+
+
+}
+
+@media (max-width:850px){
+  .countdown{
+    display: block;
+  }
+  h1 {
+    font-size: 5vh;
+
+  }
+  .time h2 {
+    font-weight: normal;
+    font-size: 5vh;
+    line-height: 1;
+  }
+  .btnd{
+    font-size: 1rem;
+
+    
+  }
+  .time {
+    margin: 1.5rem;
+  }
+
+
+}
+
+@media (max-width:414px){
+  .countdown{
+    display: grid;
+  }
+}
+@media (max-width:376px){
+  .countdown{
+    display: block;
+  }
+}
+
+
+  

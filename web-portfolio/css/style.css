@@ -513,6 +513,9 @@ width: 35vw;
     .portfolio-conteiner{
         grid-template-columns: repeat(2,1fr);
     }
+    .about-text{
+        margin-top: 20px;
+    }
 }
 
 @media (max-width: 617px){
@@ -524,6 +527,9 @@ width: 35vw;
         font-size: 5vw;
     }
     
+    .about-text{
+        margin-top: 100px;
+    }
    
 }
 
@@ -541,6 +547,7 @@ width: 35vw;
         flex-direction: column-reverse;
     }
 }
+
 @media (max-width: 365px){
     .home-img img{
         width:90vw ;
@@ -564,19 +571,17 @@ width: 35vw;
 
 
 .about-text{
-    /* margin-top: 2rem; */
+    
     position: absolute;
     top: 50%;
-    transform: translate(0, -50%);
-    width: 100%;
-    padding: 2rem 22%;
-    /* background: var(--bg-color); */
-    /* display: flex; */
-    /* justify-content: space-between; */
-    align-items: center;
-    z-index: 100;
-    
-    
+    left: 50%;  
+    transform: translate(-50%, -50%);
+    padding-bottom: 2rem;
+    width: 100%; 
+    padding-left: 5%;
+    padding-right: 5%;
+    /* padding: 1rem 10%; */
+    /* align-items: center;  */
 }
 .about-text span{
     font-size: 2rem;
